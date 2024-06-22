@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+
+<nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 fixed w-full">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="c:\Users\USER\Downloads\a_modernized_graphics_design_with_the_name_slamtech-removebg-preview.png" class="h-11" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><span class="text-blue-500 font-bold">SLAM</span><span class="text-red-500 font-bold">TECH</span></span>
+      </a>
+      <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+        <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+          </li>
+          <li>
+              <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Dropdown <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+    </svg></button>
+              <!-- Dropdown menu -->
+              <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                  <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                    </li>
+                  </ul>
+                  <div class="py-1">
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                  </div>
+              </div>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div class="grid grid-cols-1 sm:grid-cols-2 px-10 py-12 bg-gray-300">
+        <div class="row-12">
+            <div class="col-6">
+                <img src="c:\Users\USER\Downloads\Developer activity-bro.svg" alt="">
+            </div>
+        </div>
+        <div class="mt-10">
+            <h1 class="text-bold text-white justify-center text-center align-item-center mt-52 text-3xl font-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore qui eveniet non rem maxime delectus! Iusto quis voluptate nesciunt iure pariatur ea asperiores ipsum soluta, dolores accusantium repudiandae enim veritatis.</h1>
+        </div>
+        
+      </div>
+      <!--About section-->
+      <section class="my-15 bg-tranparent" id="home">
+        <div class="container max-w-7xl mx-auto px-4 lg:px-2 sm:px-10 lg:py-[100px]">
+          <div class="text-center md:flex justify-between items-center h-100vh">
+          <div class="gap-7 py-16">
+            <p class="font-bold">Hello there. Welcome to my site.</p>
+            <h1 class="text-5xl font-bold mb-4">I'm Ayo<br><span class="text-red-500 text-5xl">A Full Stack Development</span><br>& frontend Developer</h1>
+            <button class="bg-pink-500 text-white p-4 rounded-full hover:bg-red-600 border-2 border-pink-500">See portfolio</button>
+            <button class="bg-purple-600 text-white p-4 rounded-full hover:bg-blue-500 border-2 border-pink-500">Learn more</button>
+          </div>
+          <div class="image ">
+            <img src="portfoilio.jpg" alt="" class="hidden lg:h-80 lg:w-[500px]  md:w-80   object-contain md:h-[300px] md:block">
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--service-section-->
+      <section class="bg-gray-200 py-6" id="services">
+        <div class="max-w-7xl mx-auto px-4 lg:px-10 sm:px-10 lg:py-6">
+          <div class="heading text-center text-5xl font-bold mb-[40px]">
+            <h1>Our Services</h1>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
+              <div class="bg-white p-6 hover:shadow-xl rounded-xl">
+                <div class="image flex mb-2 justify-center">
+                  <img src="1.jpeg" alt="" class="rounded-full w-[100px]">
+                </div>
+                <div class="text">
+                  <h3 class="font-bold text-3xl mb-3">Card title</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa laudantium. Excepturi officiis at rem fugit porro eveniet fuga reprehenderit, tenetur molestias delectus dolores vel vero blanditiis aliquam. Vero, id.</p>
+                </div>
+                </div>
+                <div class="bg-white p-6 hover:shadow-xl rounded-xl">
+                  <div class="image flex mb-2 justify-center">
+                    <img src="2.jpeg" alt="" class="rounded-full w-[100px]">
+                  </div>
+                  <div class="text">
+                    <h3 class="font-bold text-3xl mb-3">Card title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa laudantium. Excepturi officiis at rem fugit porro eveniet fuga reprehenderit, tenetur molestias delectus dolores vel vero blanditiis aliquam. Vero, id.</p>
+                  </div>
+                  </div>
+                  <div class="bg-white p-6 hover:shadow-xl rounded-xl">
+                    <div class="image flex mb-2 justify-center">
+                      <img src="3.jpeg" alt="" class="rounded-full w-[100px]">
+                    </div>
+                    <div class="text">
+                      <h3 class="font-bold text-3xl mb-3">Card title</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa laudantium. Excepturi officiis at rem fugit porro eveniet fuga reprehenderit, tenetur molestias delectus dolores vel vero blanditiis aliquam. Vero, id.</p>
+                    </div>
+                    </div>
+                    <div class="bg-white p-6 hover:shadow-xl rounded-xl">
+                      <div class="image flex mb-2 justify-center">
+                        <img src="4.jpeg" alt="" class="rounded-full w-[100px]">
+                      </div>
+                      <div class="text">
+                        <h3 class="font-bold text-3xl mb-3">Card title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa laudantium. Excepturi officiis at rem fugit porro eveniet fuga reprehenderit, tenetur molestias delectus dolores vel vero blanditiis aliquam. Vero, id.</p>
+                      </div>
+                      </div>
+                      <div class="bg-white p-6 hover:shadow-xl rounded-xl">
+                        <div class="image flex mb-2 justify-center">
+                          <img src="slam.jpeg" alt="" class="rounded-full w-[100px]">
+                        </div>
+                        <div class="text">
+                          <h3 class="font-bold text-3xl mb-3">Card title</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa laudantium. Excepturi officiis at rem fugit porro eveniet fuga reprehenderit, tenetur molestias delectus dolores vel vero blanditiis aliquam. Vero, id.</p>
+                        </div>
+                        </div>
+                <div class="bg-white p-6 hover:shadow-xl rounded-xl">
+                  <div class="image flex mb-2 justify-center">
+                    <img src="futureristic_graphics_design_with_the_name_slamtech_and_a_robot.jpeg" alt="" class="rounded-full w-[100px]">
+                  </div>
+                  <div class="text">
+                    <h3 class="font-bold text-3xl mb-3">Card title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa laudantium. Excepturi officiis at rem fugit porro eveniet fuga reprehenderit, tenetur molestias delectus dolores vel vero blanditiis aliquam. Vero, id.</p>
+                  </div>
+                  </div>
+                      </div>
+                      
+          </div>
+      </div>
+    </section>
+    <div class="bg-gray-800 grid grid-cols-1 md:grid-cols-3 gap-12 px-8 py-12">
+      <div>
+          <h1 class="text-white font-semibold">ABOUT</h1>
+          <p class="text-gray-200">Lorem ipsum dolor sit amet consectetur
+               adipisicing elit. Harum sunt, quo assumenda
+               recusandae voluptates fuga? Voluptate nemo 
+               magnam voluptatum, nesciunt inventore ea
+                consectetur non exercitationem optio expedita
+                 repellat iure blanditiis unde 
+              nostrum repudiandae perspiciatis est qui
+               quibusdam tempora eos reiciendis dolorum?</p>
+              </div>
+              <div>
+              <h1 class="text-white font-semibold">CATEGORIES</h1>
+              <p class="text-gray-200">Lorem <br> ipsum dolor <br> sit <br> amet <br> consectetur <br> adipisicing.</p>
+              </div>
+              <div>
+              <h1 class="text-white font-semibold">QUICK LINES</h1>
+              <p class="text-gray-200">about us</p>
+              <p class="text-gray-200">contact us</p>
+              <p class="text-gray-200">contribute</p>
+              <p class="text-gray-200">privacy policy</p>
+              <p class="text-gray-200">sitemap</p>
+              </div>
+              <div class="border-t border-gray w-screen"></div>
+              <div class="mt-5">
+                  <p class="text-gray-200 text-sm">copyright &#169 2024 All Rights Reserved by codingthal.</p>
+              </div>
+          </div>
+          <div class="bg-gray-800">
+            <a href="hi.html" class="btn bg-blue-500 border-2 border-blue-500 text-white rounded-xl p-2 hover:bg-transparent hover:text-blue-500">Next</a>
+          <a href="index.html" class="btn bg-blue-500 border-2 border-blue-500 text-white rounded-xl p-2 hover:bg-transparent hover:text-blue-500">Previous</a>
+          </div>
+  </section>
+</body>
+</html>
